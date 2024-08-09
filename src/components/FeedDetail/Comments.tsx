@@ -120,9 +120,11 @@ function Comments({ postId, onClose }: CommentsProps) {
       .eq('id', commentId)
       .eq('userId', user.id);
 
-    if (error) {
+    if (error || editingContent.length < 1) {
       console.error(error);
-      toast.error('댓글 수정에 실패하였습니다.');
+      toast.error(
+        `${error ? '에러가 발생했습니다' : '1글자 이상 작성해주세요.'}`,
+      );
     } else {
       setComments((prevComments) =>
         prevComments.map((comment) =>
@@ -233,7 +235,7 @@ function Comments({ postId, onClose }: CommentsProps) {
                     <textarea
                       value={editingContent}
                       onChange={(e) => setEditingContent(e.target.value)}
-                      className="textarea no-focus w-full mt-[7px]"
+                      className="textarea w-full mt-[7px] border"
                     />
                   </div>
                 ) : (

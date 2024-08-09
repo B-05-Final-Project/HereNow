@@ -25,42 +25,41 @@ function LocalSection() {
   const [loading, setLoading] = useState<boolean>(true);
   const serviceKey = process.env.NEXT_PUBLIC_TOURAPI_KEY;
 
-  const getLocationData = async (latitude: number, longitude: number) => {
-    try {
-      const res = await tourApi(
-        `/locationBasedList1?MobileOS=ETC&numOfRows=2&MobileApp=new&_type=JSON&mapX=${longitude}&mapY=${latitude}&radius=20000&contentTypeId=12&serviceKey=${serviceKey}`,
-      );
-
-      const items: NearbyPlace[] = res.data.response.body.items.item;
-      setLocalitems(items);
-      setLoading(false);
-    } catch (error) {
-      showToast('error', 'Failed to fetch location data');
-      setLoading(false);
-    }
-  };
-  const getLoactionSuc = async (position: PositionType) => {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    await getLocationData(latitude, longitude);
-  };
-
-  const getLocationErr = (error: GeolocationError) => {
-    showToast('error', 'Failed to fetch location data');
-  };
-  const getLoaction = () => {
-    const option = {
-      enableHighAccuracy: true,
-      maximumAge: 360000,
-      timeout: 30000,
-    };
-    navigator.geolocation.getCurrentPosition(
-      getLoactionSuc,
-      getLocationErr,
-      option,
-    );
-  };
   useEffect(() => {
+    const getLocationData = async (latitude: number, longitude: number) => {
+      try {
+        const res = await tourApi(
+          `/locationBasedList1?MobileOS=ETC&numOfRows=2&MobileApp=new&_type=JSON&mapX=${longitude}&mapY=${latitude}&radius=20000&contentTypeId=12&serviceKey=${serviceKey}`,
+        );
+        const items: NearbyPlace[] = res.data.response.body.items.item;
+        setLocalitems(items);
+        setLoading(false);
+      } catch (error) {
+        showToast('error', 'Failed to fetch location data');
+        setLoading(false);
+      }
+    };
+    const getLoactionSuc = async (position: PositionType) => {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+      await getLocationData(latitude, longitude);
+    };
+
+    const getLocationErr = (error: GeolocationError) => {
+      showToast('error', 'Failed to fetch location data');
+    };
+    const getLoaction = () => {
+      const option = {
+        enableHighAccuracy: true,
+        maximumAge: 360000,
+        timeout: 30000,
+      };
+      navigator.geolocation.getCurrentPosition(
+        getLoactionSuc,
+        getLocationErr,
+        option,
+      );
+    };
     getLoaction();
   }, []);
 
