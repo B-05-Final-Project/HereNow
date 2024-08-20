@@ -416,8 +416,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 2024.07.16 ~ 2024.08.21<br/><br/>
 
 <br/>
-<div align="center"><img width="500" height="500"  alt="image" src="gif\룰파일.gif">
-<img width="500" height="500" alt="image" src="gif\코드 컨벤션.jpg">
+<div align="center"><img width="470" height="500"  alt="image" src="gif\룰파일.gif">
+<img width=470" height="500" alt="image" src="gif\코드 컨벤션.jpg">
 </div>
 
 <figcaption>
@@ -543,8 +543,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 <br/>
 
 <div align="center">
-  <img  width="500" height="500" src="gif\현 위치 로컬.gif"/>
-  <img  width="500" height="500" src="gif\검색.gif"/>
+  <img  width="470" height="450" src="gif\현 위치 로컬.gif"/>
+  <img  width="470" height="450" src="gif\검색.gif"/>
 </div>
 
 <figcaption>
