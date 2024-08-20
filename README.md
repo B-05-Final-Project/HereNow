@@ -34,60 +34,61 @@
   <br/>
   
 ## 🐬 로컬의 생생한 순간을 당신의 손안에! “지금, 여기”
-🚴여행을 계획하면서 현지의 생생한 정보를 얻고 싶었던 적이 있으신가요? <br/> 
-"지금, 여기"만 있으면 헛걸음 걱정은 이제 끝! 
+**🚴여행을 계획하면서 현지의 생생한 정보를 얻고 싶었던 적이 있으신가요?** <br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"지금, 여기" 만 있으면 헛걸음 걱정은 이제 끝! <br/>
 -  “지금, 여기” 에서 현지의 여행지, 맛집, 행사 정보를 실시간으로 확인하고 다른 사용자들과 소통하며 필요한 정보를 나눌 수 있어요.
 - 사용자는 현재 위치 또는 관심 있는 로컬의 맛집, 여행지, 행사, 날씨, 사용자 후기 등을 확인하고, 다른 사용자들과 정보를 공유하며 소통할 수 있습니다.
+- 사용자 각자의 여행 경험이 쌓이고 공유되어, 더 많은 사람이 만족할 수 있는 여행을 즐길 수 있습니다.
+- "지금, 여기"만 있으면 헛걸음 걱정은 이제 끝! 각자의 여행 경험이 쌓이고 공유되어, 더 많은 사람이 만족할 수 있는 여행을 즐길 수 있습니다.
   <br/>
 
 ## 아키텍처
-- 프로젝트 핵심 기술:
-  - 패키지 매니저 : npm
-  - 프론트엔드 : React,Next,js,TypeScript,Tailwind CSS
-  - 백엔드 : Supabase
-  - 라이브러리 : react-toastify, day.js, react-intersection-observer,
-    heroicons, react-kakao-maps-sdk
-  - 전역상태관리 : Zustand, Tanstack Query
-  - API : 한국관광공사 Tour API, 카카오 지도 API
-  - 배포 : Vercel
-<br />
+<br/>
+
+<p align="center">
+<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F70d49e99-0420-4062-a39e-272a1348dac4%2Fherenow-architecture.png?table=block&id=7e1cf441-fb3e-422b-b22d-b6d4e35339a1&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2" width=70%>
+</p>
+
+<br/>
+<br/>
+
+## 📚 Stacks
+#### 🌐 Package Manager
+<img src="https://img.shields.io/badge/npm-green?style=for-the-badge&logo=npm&logoColor=white">
+
+#### 💻 Front-end 
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white"> <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+#### 💾 Back-end
+<img src="https://img.shields.io/badge/supabase-208C6?style=for-the-badge&logo=Supabase&logoColor=white">
+
+#### 📁 State management
+<img src="https://img.shields.io/badge/Zustand-orange?style=for-the-badge&logo=zustand&logoColor=white"> <img src="https://img.shields.io/badge/TanstackQuery-yellow?style=for-the-badge&logo=reactquery&logoColor=white">
+#### 🏢 Distribution
+<img src="https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=Vercel&logoColor=white">
+
+#### API
+```
+한국관광공사 Tour API, 카카오 지도 API
+```
+#### JavaScript-Library
+```react
+react-toastify, day.js, react-intersection-observer, heroicons, react-kakao-maps-sdk
+```
+
 
 
 ## 팀원 소개
+<div align="center"> 
 
-<table>
-   <tr>
-    <td align="center"><b>정현우</b></td>
-    <td align="center"><b>강동석</b></td>
-    <td align="center"><b>안시승</b></td>
-    <td align="center"><b>박성욱</b></td>
-    <td align="center"><b>이세영</b></td>
-    <td align="center"><b>김언진</b></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/junghyunwoo02"><img src="https://avatars.githubusercontent.com/u/166801004?v=4" width="100" /></a></td>
-    <td align="center"><a href="https://github.com/show1486"><img src="https://avatars.githubusercontent.com/u/153741544?v=4" width="100" /></a></td>
-    <td align="center"><a href="https://github.com/Maestrossa"><img src="https://avatars.githubusercontent.com/u/161290671?v=4" width="100" /></a></td>
-    <td align="center"><a href="https://github.com/SecretCandy"><img src="https://avatars.githubusercontent.com/u/108340910?v=4" width="100" /></a></td>
-    <td align="center"><a href="https://github.com/leeseayoung"><img src="https://avatars.githubusercontent.com/u/141402621?v=4" width="100" /></a></td>  
-    <td align="center"><a href="https://github.com/EONNI107"><img src="https://avatars.githubusercontent.com/u/131836982?v=4" width="100" /></a></td> 
-  </tr>
-  <tr>
-    <td align="center">피드 목록페이지, 
-    장소 목록페이지 -<br/> (필터, 무한스크롤 , 좋아요)
-    </td>
-    <td align="center">
-    메인페이지, 검색결과페이지 - <br/>
-    레이아웃(Header,Footer), 검색기능구현</td>
-    <td align="center">
-    장소 상세 페이지 - <br/> 장소 정보, 지도, 주변 장소, 댓글, API</td>
-    <td align="center">
-    피드 상세 페이지 - <br/> 좋아요, 댓글, 피드 작성 페이지</td>
-    <td align="center">
-    로그인/회원가입/마이페이지</td>
-    <td align="center">전체적인 디자인, 와이어프레임</td>
-  </tr>
-</table>
+|정현우|강동석|안시승|박성욱|이세영|김언진|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|<a href="https://github.com/junghyunwoo02"><img src="https://avatars.githubusercontent.com/u/166801004?v=4" width="100" height="100" /></a>|<a href="https://github.com/show1486"><img src="https://avatars.githubusercontent.com/u/153741544?v=4" width="100" height="100" /></a>|<a href="https://github.com/Maestrossa"><img src="https://avatars.githubusercontent.com/u/161290671?v=4" width="100" height="100" /></a>|<a href="https://github.com/SecretCandy"><img src="https://avatars.githubusercontent.com/u/108340910?v=4" width="100" height="100" /></a>|<a href="https://github.com/leeseayoung"><img src="https://avatars.githubusercontent.com/u/141402621?v=4" width="100" height="100" /></a>|<a href="https://github.com/EONNI107"><img src="https://avatars.githubusercontent.com/u/131836982?v=4" width="100" height="100" /></a>|
+|피드 목록페이지<br/>장소 목록페이지<br/>필터,무한스크롤<br/>좋아요|메인페이지<br/>검색결과페이지<br/>레이아웃<br/>검색기능구현|장소 상세페이지<br/>장소 정보,지도<br/>주변 장소<br/>댓글,API|피드 상세페이지<br/>좋아요,댓글<br/>피드 작성페이지|로그인,회원가입<br/>마이페이지|전체적인 디자인<br/>와이어프레임|
+
+</div>
+
+
+
 
   <br/>
 
