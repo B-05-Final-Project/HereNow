@@ -7,6 +7,7 @@ import LoginPrompt from '@/components/LoginPrompt';
 import useAuthStore from '@/zustand/useAuthStore';
 
 type LikeBtnProps = {
+  title: string;
   placeId: string;
   imageUrl: string;
   isInNearbyPlaces?: boolean;
@@ -16,6 +17,7 @@ type LikeBtnProps = {
 function LikeBtn({
   placeId,
   imageUrl,
+  title,
   isInNearbyPlaces = false,
   isInLocalList = false,
 }: LikeBtnProps) {
@@ -42,7 +44,12 @@ function LikeBtn({
 
   const { mutate: likeMutate } = useMutation({
     mutationFn: async () => {
-      await axios.post('/api/like-place', { userId, placeId, imageUrl });
+      await axios.post('/api/like-place', {
+        userId,
+        placeId,
+        imageUrl,
+        title,
+      });
     },
     onMutate: async () => {
       setLiked(true);
@@ -117,7 +124,7 @@ function LikeBtn({
       ) : (
         <button
           onClick={handleLike}
-          className={`flex gap-2 justify-center xl:hover:bg-blue5 xl:bg-blue4 xl:border border-blue4 xl:p-2 xl:rounded-lg xl:w-24 ${
+          className={`flex gap-2 justify-center xl:hover:bg-blue5 transition-colors duration-300 xl:bg-blue4 xl:border border-blue4 xl:p-2 xl:rounded-lg xl:w-24 ${
             isInNearbyPlaces &&
             'xl:bg-transparent xl:hover:bg-transparent xl:border-none xl:w-4 xl:p-0 xl:algin'
           }`}

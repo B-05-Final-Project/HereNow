@@ -13,7 +13,7 @@ import regionData from '@/data/regions.json';
 
 function LocalListPage({ region }: { region: string }) {
   const [contentType, setContentType] = useState('12');
-  const [sigunguCode, setSigunguCode] = useState('1');
+  const [sigunguCode, setSigunguCode] = useState('');
   const areas = regionData.region.find((area) => area.ename === region);
   const {
     data,
@@ -39,8 +39,9 @@ function LocalListPage({ region }: { region: string }) {
           <select
             value={sigunguCode}
             onChange={(e) => setSigunguCode(e.target.value)}
-            className="p-2 border border-gray3 w-72 rounded-3xl text-center xl:w-24 "
+            className="p-2 border-2 border-blue3 w-72 rounded-3xl text-center xl:w-[100px]"
           >
+            <option value="">모든 지역</option>
             {areas?.sigungu.map((a) => (
               <option key={a.code} value={a.code}>
                 {a.name}
@@ -62,7 +63,7 @@ function LocalListPage({ region }: { region: string }) {
         <div className="pt-5 bg-gray0 xl:bg-white xl:max-w-[1240px]">
           {isPending ? (
             <div className="grid grid-cols-1 gap-4 justify-items-center xl:grid-cols-2 xl:gap-8 xl:justify-items-stretch xl:px-4">
-              {[...Array(5)].map((_, index) => (
+              {[...Array(6)].map((_, index) => (
                 <SkeletonCard key={index} />
               ))}
             </div>
