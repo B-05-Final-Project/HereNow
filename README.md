@@ -1,4 +1,4 @@
-# 🍀 프로젝트명 : 지금, 여기
+# ✈️ 프로젝트명 : 지금, 여기
 <br/>
 <p align="center">
 <img alt="image" src="public/readme-brochure.png">
@@ -16,8 +16,6 @@
 ## 4. 프로젝트 상세설명
 
 ## 5. 트러블 슈팅
-
-## 6. 프로젝트를 마치며..
 
   <br/>
   
@@ -761,8 +759,5 @@ Optimistic UI 업데이트: 사용자가 좋아요 버튼을 클릭했을 때, �
 </details>
 
   <br/>
-
-
-# 6. 프로젝트를 마치며..
 
   <br/>
