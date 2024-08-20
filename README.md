@@ -1,7 +1,7 @@
 # 🍀 프로젝트명 : 지금, 여기
 <br/>
 <p align="center">
-<img alt="image" src="public/readme-brochure.png" width = 90%>
+<img alt="image" src="public/readme-brochure.png">
 </p>
 <br/>
 
@@ -422,8 +422,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 2024.07.16 ~ 2024.08.21<br/><br/>
 
 <br/>
-<div align:"center"><img width="300" height="300"  alt="image" src="gif\룰파일.gif">
-<img width="300" height="300" alt="image" src="gif\코드 컨벤션.jpg">
+<div align="center"><img width="500" height="500"  alt="image" src="gif\룰파일.gif">
+<img width="500" height="500" alt="image" src="gif\코드 컨벤션.jpg">
 </div>
 
 <figcaption>
@@ -543,48 +543,69 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 
 # 4. 프로젝트 상세설명
 
-  <br/>
+<br/>
 
-### (1). 사용자는 현재 위치 또는 검색을 이용하여 정보(맛집, 관관지, 행사등)를 찾을 수 있어요
+## ✅ 사용자는 현재 위치 또는 검색을 이용하여 정보(맛집, 관관지, 행사등)를 찾을 수 있어요
+<br/>
 
-<img width="640" src="gif\현 위치 로컬.gif"/><br/>
-<img width="640" src="gif\검색.gif"/><br/>
+<div align="center">
+  <img  width="500" height="500" src="gif\현 위치 로컬.gif"/>
+  <img  width="500" height="500" src="gif\검색.gif"/>
+</div>
 
-- 현재 위치를 기반으로 주변 로컬정보들을 보여줍니다.
-- 다양한 정보를 검색을 통해 간편하게 정보를 볼 수 있습니다.
-  <br/>
-
----
-
-  <br/>
-
-### (2). 각 지역만의 정보(맛집, 관관지, 행사등)를 한눈에 확인할 수 있어요
-
-<img width="640" src="gif\지역별.gif"/><br/>
-
-- 한눈에 보이는 전국 키워드를 클릭하여 그 지역들의 정보를 한눈에 확인할 수 있습니다.
-  <br/>
-
----
+<figcaption>
+  
+  ### ▶️ 현재 위치를 기반으로 주변 로컬정보들을 보여줍니다.
+  ### ▶️ 다양한 정보를 검색을 통해 간편하게 정보를 볼 수 있습니다.
+</figcaption>
 
   <br/>
 
-### (3). 피드를 통해 관련 로컬들의 맛집, 관관지, 행사등의 후기를 한눈에 볼 수 있어요
+## ✅ 각 지역만의 정보(맛집, 관관지, 행사등)를 한눈에 확인할 수 있어요
+<br/>
 
-<img width="640" src="gif\피드.gif"/><br />
-
-- 사용자들이 작성한 피드를 통해 후기와 경험, 추억들을 한눈에 볼 수 있습니다.
+<div align="center">
+  <img src="gif\지역별.gif"/>
+  <br/>
+</div>
   <br/>
 
----
+<figcaption>
+  
+  ### ▶️ 한눈에 보이는 전국 키워드를 클릭하여 그 지역들의 정보를 한눈에 확인할 수 있습니다.
+</figcaption>
 
   <br/>
 
-### (4). 자신만의 피드를 작성하여 본인만의 이야기를 남길 수 있어요
+## ✅ 피드를 통해 관련 로컬들의 맛집, 관관지, 행사등의 후기를 한눈에 볼 수 있어요
+<br/>
 
-<img width="640" src="gif\피드작성.gif"/><br/>
+<div align="center">
+  <img src="gif\피드.gif"/>
+  <br/>
+</div>
+<br/>
 
-- 사용자가 직접 글과 사진을 작성하여 정보를 공유 할 수 있습니다.
+<figcaption>
+  
+### ▶️ 사용자들이 작성한 피드를 통해 후기와 경험, 추억들을 한눈에 볼 수 있습니다.
+  
+  <br/>
+</figcaption>
+
+
+  <br/>
+
+## ✅ 자신만의 피드를 작성하여 본인만의 이야기를 남길 수 있어요
+
+<img src="gif\피드작성.gif"/>
+<br/>
+
+<figcaption>
+  
+  ### ▶️ 사용자가 직접 글과 사진을 작성하여 정보를 공유 할 수 있습니다.
+  
+</figcaption>
 
   <br/>
 
