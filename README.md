@@ -160,6 +160,243 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 
 ## 📂 프로젝트 폴더 구조
 
+<details>
+  <summary><strong>폴더 구조</strong></summary>
+  <br />
+
+  📦src<br/>
+ ┣ 📂app<br/>
+ ┃ ┣ 📂(layout)<br/>
+ ┃ ┃ ┣ 📂(feed)<br/>
+ ┃ ┃ ┃ ┗ 📂feed<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜loading.tsx<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂(local)<br/>
+ ┃ ┃ ┃ ┗ 📂local<br/>
+ ┃ ┃ ┃ ┃ ┣ 📂details<br/>
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┃ ┃ ┗ 📂[region]<br/>
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂feed-detail<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂profile<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂search-page<br/>
+ ┃ ┃ ┃ ┣ 📜layout.tsx<br/>
+ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📜layout.tsx<br/>
+ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┣ 📂(webmain)<br/>
+ ┃ ┃ ┣ 📂webmain<br/>
+ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂websearch-page<br/>
+ ┃ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┃ ┣ 📂_componets<br/>
+ ┃ ┃ ┃ ┣ 📂AroundLocalList<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜AroundLocalItem.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜AroundLocalList.tsx<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜index.ts<br/>
+ ┃ ┃ ┃ ┣ 📂LocalCategory<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜index.ts<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜LocalCategory.tsx<br/>
+ ┃ ┃ ┃ ┣ 📂LocalFeedList<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜FeedItem.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜index.ts<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜LocalFeedList.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜MainBanner.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜searchStore.ts<br/>
+ ┃ ┃ ┃ ┣ 📜WebFeedCategories.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebFeedItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebFeedSearchItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebFooter.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebHeader.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebMainBar.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebRecentSearch.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebSearch.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜WebSearchCategories.tsx<br/>
+ ┃ ┃ ┃ ┗ 📜WebSearchItem.tsx<br/>
+ ┃ ┃ ┗ 📜layout.tsx<br/>
+ ┃ ┣ 📂api<br/>
+ ┃ ┃ ┣ 📂additional-details<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂check-email<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂like-place<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂local-details<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂local-event<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂local-list<br/>
+ ┃ ┃ ┃ ┗ 📂[id]<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂nearby-places<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂search<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂sign-in<br/>
+ ┃ ┃ ┃ ┣ 📂callback<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂sign-out<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂sign-up<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂supabase-feed<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂supabase-feeduserdata<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂supabase-searchfeed<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┣ 📂supabase-sortedfeed<br/>
+ ┃ ┃ ┃ ┗ 📜route.ts<br/>
+ ┃ ┃ ┗ 📜tourApi.ts<br/>
+ ┃ ┣ 📂feed-write<br/>
+ ┃ ┃ ┣ 📜layout.tsx<br/>
+ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┣ 📂sign-in<br/>
+ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┣ 📂sign-up<br/>
+ ┃ ┃ ┗ 📜page.tsx<br/>
+ ┃ ┣ 📜globals.css<br/>
+ ┃ ┣ 📜layout.tsx<br/>
+ ┃ ┗ 📜not-found.tsx<br/>
+ ┣ 📂components<br/>
+ ┃ ┣ 📂FeedDetail<br/>
+ ┃ ┃ ┣ 📜Comments.tsx<br/>
+ ┃ ┃ ┣ 📜DetailLikeBtn.tsx<br/>
+ ┃ ┃ ┣ 📜FeedDetailSkeleton.tsx<br/>
+ ┃ ┃ ┗ 📜PopularPosts.tsx<br/>
+ ┃ ┣ 📂FeedList<br/>
+ ┃ ┃ ┣ 📜FeedItemSkeleton.tsx<br/>
+ ┃ ┃ ┣ 📜FeedListClient.tsx<br/>
+ ┃ ┃ ┣ 📜FeedListItem.tsx<br/>
+ ┃ ┃ ┣ 📜HeartIconSolid.tsx<br/>
+ ┃ ┃ ┗ 📜UserName.tsx<br/>
+ ┃ ┣ 📂FeedWrite<br/>
+ ┃ ┃ ┣ 📜ContentInput.tsx<br/>
+ ┃ ┃ ┣ 📜ImageUpload.tsx<br/>
+ ┃ ┃ ┣ 📜LocationButton.tsx<br/>
+ ┃ ┃ ┣ 📜LocationDropdown.tsx<br/>
+ ┃ ┃ ┗ 📜TitleInput.tsx<br/>
+ ┃ ┣ 📂Footer<br/>
+ ┃ ┃ ┣ 📜Footer.tsx<br/>
+ ┃ ┃ ┗ 📜index.ts<br/>
+ ┃ ┣ 📂FooterMain<br/>
+ ┃ ┃ ┗ 📜FooterMain.tsx<br/>
+ ┃ ┣ 📂HeaderLayout<br/>
+ ┃ ┃ ┗ 📜HeaderLayout.tsx<br/>
+ ┃ ┣ 📂HeaderMain<br/>
+ ┃ ┃ ┗ 📜HeaderMain.tsx<br/>
+ ┃ ┣ 📂HomeMain<br/>
+ ┃ ┃ ┗ 📜HomeMain.tsx<br/>
+ ┃ ┣ 📂IconList<br/>
+ ┃ ┃ ┣ 📜PenIcon.tsx<br/>
+ ┃ ┃ ┗ 📜PostIcon.tsx<br/>
+ ┃ ┣ 📂LocalDetails<br/>
+ ┃ ┃ ┣ 📜Details.tsx<br/>
+ ┃ ┃ ┣ 📜KakaoMap.tsx<br/>
+ ┃ ┃ ┣ 📜LikeBtn.tsx<br/>
+ ┃ ┃ ┣ 📜LocalDetailsSkeleton.tsx<br/>
+ ┃ ┃ ┗ 📜NearbyPlaces.tsx<br/>
+ ┃ ┣ 📂LocalList<br/>
+ ┃ ┃ ┣ 📜ContentTypeFilter.tsx<br/>
+ ┃ ┃ ┣ 📜InfiniteScroll.tsx<br/>
+ ┃ ┃ ┣ 📜LoadingState.tsx<br/>
+ ┃ ┃ ┣ 📜LocalListItem.tsx<br/>
+ ┃ ┃ ┣ 📜LocalListPage.tsx<br/>
+ ┃ ┃ ┣ 📜RegionHeader.tsx<br/>
+ ┃ ┃ ┗ 📜SkeletonCard.tsx<br/>
+ ┃ ┣ 📂MainPage<br/>
+ ┃ ┃ ┣ 📂api<br/>
+ ┃ ┃ ┃ ┗ 📜searchApi.ts<br/>
+ ┃ ┃ ┣ 📂Header<br/>
+ ┃ ┃ ┃ ┣ 📜Header.tsx<br/>
+ ┃ ┃ ┃ ┗ 📜index.ts<br/>
+ ┃ ┃ ┣ 📂Main<br/>
+ ┃ ┃ ┃ ┣ 📂Sections<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜CheckLoginUser.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜LocalItem.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜LocalItemList.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜LocalSection.tsx<br/>
+ ┃ ┃ ┃ ┃ ┣ 📜WebFeedItem.tsx<br/>
+ ┃ ┃ ┃ ┃ ┗ 📜WebFeedSection.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜index.ts<br/>
+ ┃ ┃ ┃ ┗ 📜Main.tsx<br/>
+ ┃ ┃ ┣ 📂SearchElements<br/>
+ ┃ ┃ ┃ ┣ 📜SearchFeed.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SearchFeedItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SearchFilterItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SearchForm.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SearchIntroduction.tsx<br/>
+ ┃ ┃ ┃ ┗ 📜SearchItem.tsx<br/>
+ ┃ ┃ ┗ 📂Skeleton<br/>
+ ┃ ┃ ┃ ┣ 📜SkeletonFeedItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SkeletonLocalItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SkeletonLocation.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SkeletonSearchItem.tsx<br/>
+ ┃ ┃ ┃ ┣ 📜SkeletonWebFeed.tsx<br/>
+ ┃ ┃ ┃ ┗ 📜SkeletonWebSearch.tsx<br/>
+ ┃ ┣ 📂Modal<br/>
+ ┃ ┃ ┗ 📜Modal.tsx<br/>
+ ┃ ┣ 📂MypageFeedLikesList<br/>
+ ┃ ┃ ┗ 📜FeedLikesList.tsx<br/>
+ ┃ ┣ 📂MypageFeedsList<br/>
+ ┃ ┃ ┗ 📜FeedsList.tsx<br/>
+ ┃ ┣ 📂MypagePlaceLikesList<br/>
+ ┃ ┃ ┗ 📜PlaceLikes.tsx<br/>
+ ┃ ┣ 📂SearchMain<br/>
+ ┃ ┃ ┗ 📜SearchMain.tsx<br/>
+ ┃ ┣ 📂SocialLogin<br/>
+ ┃ ┃ ┗ 📜Sociallogin.tsx<br/>
+ ┃ ┣ 📜DeletePrompt.tsx<br/>
+ ┃ ┣ 📜LoadingSpinner.tsx<br/>
+ ┃ ┣ 📜LoginPrompt.tsx<br/>
+ ┃ ┣ 📜SendFeedWrite.tsx<br/>
+ ┃ ┗ 📜Skeleton.tsx<br/>
+ ┣ 📂constants<br/>
+ ┃ ┗ 📜regionImages.ts<br/>
+ ┣ 📂data<br/>
+ ┃ ┗ 📜regions.json<br/>
+ ┣ 📂fonts<br/>
+ ┃ ┗ 📜PretendardVariable.woff2<br/>
+ ┣ 📂hooks<br/>
+ ┃ ┣ 📜useDebounce.ts<br/>
+ ┃ ┣ 📜useKaKaoLoader.ts<br/>
+ ┃ ┣ 📜useLocalDetails.ts<br/>
+ ┃ ┗ 📜useLocalList.ts<br/>
+ ┣ 📂providers<br/>
+ ┃ ┣ 📜QueryProvider.tsx<br/>
+ ┃ ┗ 📜ToastProvider.tsx<br/>
+ ┣ 📂types<br/>
+ ┃ ┣ 📜feed.ts<br/>
+ ┃ ┣ 📜localDetails.ts<br/>
+ ┃ ┣ 📜localList.ts<br/>
+ ┃ ┣ 📜mainTypes.ts<br/>
+ ┃ ┣ 📜post.ts<br/>
+ ┃ ┗ 📜supabase.ts<br/>
+ ┣ 📂utils<br/>
+ ┃ ┣ 📂supabase<br/>
+ ┃ ┃ ┣ 📜client.ts<br/>
+ ┃ ┃ ┣ 📜middleware.ts<br/>
+ ┃ ┃ ┗ 📜server.ts<br/>
+ ┃ ┣ 📜formatDate.ts<br/>
+ ┃ ┣ 📜getRegionName.ts<br/>
+ ┃ ┣ 📜getSigunguName.ts<br/>
+ ┃ ┗ 📜toastHelper.ts<br/>
+ ┣ 📂zustand<br/>
+ ┃ ┗ 📜useAuthStore.ts<br/>
+ ┗ 📜middleware.ts<br/>
+</details>
+
+<br/>
+<br/>
 
 ## 🙂 팀원 소개
 <div align="center"> 
