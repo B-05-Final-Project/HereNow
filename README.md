@@ -416,9 +416,9 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 2024.07.16 ~ 2024.08.21<br/><br/>
 
 <br/>
-<div align="center"><img width="470" height="500"  alt="image" src="gif\룰파일.gif">
-<img width=470" height="500" alt="image" src="gif\코드 컨벤션.jpg">
-</div>
+
+|<img alt="image" src="gif\룰파일.gif">|<img alt="image" src="gif\코드 컨벤션.jpg">|
+|:--:|:--:|
 
 <figcaption>
   
@@ -542,10 +542,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## ✅ 사용자는 현재 위치 또는 검색을 이용하여 정보(맛집, 관관지, 행사등)를 찾을 수 있어요
 <br/>
 
-<div align="center">
-  <img  width="470" height="450" src="gif\현 위치 로컬.gif"/>
-  <img  width="470" height="450" src="gif\검색.gif"/>
-</div>
+  |<img height="400" src="gif\현 위치 로컬.gif"/>|<img height="400" src="gif\검색.gif"/>|
+  |:--:|:--:|
 
 <figcaption>
   
