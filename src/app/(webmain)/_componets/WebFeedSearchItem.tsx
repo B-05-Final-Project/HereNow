@@ -72,7 +72,7 @@ function WebFeedSearchItem() {
         </div>
         <div className="w-full flex flex-col items-center gap-y-[16px]">
           <div className=" w-full px-6 py-2 flex border-b-orange3 border-b-2 items-center justify-center">
-            <h3 className="text-2xl font-medium leading-[150%]">행사</h3>
+            <h3 className="text-2xl font-medium leading-[150%]">로컬</h3>
           </div>
           <WebSearchCategories setBasicData={setBasicData} query={query} />
           <div className="w-full flex flex-col gap-4">
