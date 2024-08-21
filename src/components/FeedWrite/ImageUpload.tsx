@@ -73,7 +73,9 @@ function ImageUpload({
           {imagePreviews.map((src, index) => (
             <div
               key={index}
-              className="relative flex-none w-32 h-32 bg-gray-300"
+              className={`relative flex-none ${
+                isDesktop ? 'w-[150px] h-[100px]' : 'w-[100px] h-[100px]'
+              } bg-gray-300`}
             >
               <Image
                 src={src}
