@@ -13,7 +13,17 @@ const pretendard = localFont({
 });
 
 export const metadata: Metadata = {
-  title: '지금여기',
+  openGraph: {
+    title: '지금, 여기',
+    description: '로컬의 정보를 확인하고 공유할 수 있는 플랫폼입니다.',
+    url: 'https://here-now-zeta.vercel.app',
+    images: {
+      url: 'https://here-now-zeta.vercel.app/readme-brochure.png',
+      width: 2117,
+      height: 1059,
+    },
+  },
+  title: '지금, 여기',
   description: '로컬의 정보를 확인하고 공유할 수 있는 플랫폼입니다.',
   icons: {
     icon: '/Symbol.png',
