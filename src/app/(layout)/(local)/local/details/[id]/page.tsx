@@ -10,7 +10,6 @@ import {
   useNearbyPlaces,
 } from '@/hooks/useLocalDetails';
 import React, { useState } from 'react';
-import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline';
 
 function LocalDetailsPage({ params }: { params: { id: number } }) {
   const { id } = params;
