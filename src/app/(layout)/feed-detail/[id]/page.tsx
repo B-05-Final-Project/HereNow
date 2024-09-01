@@ -210,14 +210,15 @@ function PostPage({ params }: PostPageProps) {
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
-                <Image
-                  src={src}
-                  alt={`Image ${index}`}
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover"
-                  priority
-                />
+                <div className="relative w-full pb-[64%] max-w-full mx-auto lg:h-[500px] lg:max-w-[1240px] lg:max-h-[700px]">
+                  <Image
+                    src={src}
+                    alt={`Image ${index}`}
+                    className="object-cover w-full h-full"
+                    layout="fill"
+                    priority
+                  />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -328,14 +329,15 @@ function PostPage({ params }: PostPageProps) {
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
-                <Image
-                  src={src}
-                  alt={`Image ${index}`}
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover"
-                  priority
-                />
+                <div className="relative w-full pb-[64%] max-w-full mx-auto">
+                  <Image
+                    src={src}
+                    alt={`Image ${index}`}
+                    className="object-cover w-full h-full"
+                    layout="fill"
+                    priority
+                  />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
