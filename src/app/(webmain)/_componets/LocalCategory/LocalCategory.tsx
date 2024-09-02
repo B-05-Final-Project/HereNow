@@ -3,7 +3,7 @@ import { Regions } from '@/types/mainTypes';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import React from 'react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -30,7 +30,7 @@ function LocalCategory() {
             </button>
           </div>
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             navigation={{
               nextEl: '.button-next',
               prevEl: '.button-prev',
@@ -40,6 +40,11 @@ function LocalCategory() {
             className="w-[1124px] py-[40px]"
             loop={true}
             loopAdditionalSlides={1}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            speed={500}
           >
             {regions.region.map((i) => (
               <SwiperSlide key={i.ename} className="flex justify-center">
