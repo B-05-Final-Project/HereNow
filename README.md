@@ -14,9 +14,7 @@
 
 ## 3. 프로젝트 대표기능
 
-## 4. 프로젝트 상세설명
-
-## 5. 트러블 슈팅
+## 4. 트러블 슈팅
 
   <br/>
   
@@ -454,7 +452,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
   
 ## 🧳 내 주변 여행지와 검색 기능
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Faba20be0-5954-45fe-bd5e-faba83b6c4c2%2FSlide_16_9_-_1.png?table=block&id=85e55d3e-85e5-46e6-b7e0-733a3d6c32f8&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1420&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/aba20be0-5954-45fe-bd5e-faba83b6c4c2/Slide_16_9_-_1.png?table=block&id=1fc1cfd7-a3a4-4525-a038-c29af4a8af13&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=i5DwtiSBi8AI3jciJ-gXQnYmMX-HsMpNYG3vmpiM-GM&downloadName=Slide+16_9+-+1.png">
 <figcaption>   
   <br/>
   
@@ -470,7 +468,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 지역 캐러셀과 지역 목록 페이지
 
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F67402518-08cb-43b0-9da9-2febe2434a5e%2FSlide_16_9_-_2.png?table=block&id=e1c8a8d3-f8d3-425b-93c0-3675acac321a&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1440&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/67402518-08cb-43b0-9da9-2febe2434a5e/Slide_16_9_-_2.png?table=block&id=a631b223-b05a-4629-a386-4d0d716bc5a8&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=pzP-JckF4owmzef5TPFmW_ha7MJGF4U1hGJtvw9kwvY&downloadName=Slide+16_9+-+2.png">
 <figcaption>   
   <br/>
   
@@ -487,7 +485,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 장소 상세 페이지
 
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fcd107ae9-0166-4b20-9f1c-655737cad738%2FSlide_16_9_-_3.png?table=block&id=49a7780e-bb34-4099-b350-0395bc7b3838&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1420&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/cd107ae9-0166-4b20-9f1c-655737cad738/Slide_16_9_-_3.png?table=block&id=278468bb-b24a-4af7-84d7-1a657a2c8065&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=c_WrewyNTNbEFgOA1UV9Ykv-JWz_Cj13WI_YUBbsH88&downloadName=Slide+16_9+-+3.png">
 <figcaption>   
   <br/>
   
@@ -504,7 +502,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 피드 상세 페이지
 
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F7a4b3536-71bb-469f-bc25-e5f2e799720b%2FSlide_16_9_-_4.png?table=block&id=1bb6dace-857c-4d22-af4f-5ad403b6a4ca&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1420&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/7a4b3536-71bb-469f-bc25-e5f2e799720b/Slide_16_9_-_4.png?table=block&id=7f37b182-bfa9-487b-ab29-bdc5b7e35bad&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=mYf1M00d5pkwa-7Ma5_OZu30YAG9VXYPpSfCpLtefbs&downloadName=Slide+16_9+-+4.png">
 <figcaption>   
   <br/>
   
@@ -520,7 +518,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 피드 목록과 작성 페이지
 
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F03729491-3c3c-4803-896f-38893d7d5743%2FSlide_16_9_-_5.png?table=block&id=4aacd43b-0b46-42d4-ba1f-5b3ecb1cae3d&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1440&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/03729491-3c3c-4803-896f-38893d7d5743/Slide_16_9_-_5.png?table=block&id=456da7cb-f2b6-4259-8d3e-7d5a744449c2&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=mCcOQf19iMHhRVJacVg2Oa7SSmWlTaQxP6m_Fj-hB20&downloadName=Slide+16_9+-+5.png">
 <figcaption>   
   <br/>
   
@@ -537,7 +535,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 마이 페이지
 
 <div>
-<img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Face73730-53e6-4741-81db-f57ec40d452c%2FSlide_16_9_-_6.png?table=block&id=4a4b12a4-56ec-49b5-826d-43e8caad7990&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1440&userId=c6ff8b59-141d-43fd-a1c9-b3a2ad415c9a&cache=v2">
+<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/ace73730-53e6-4741-81db-f57ec40d452c/Slide_16_9_-_6.png?table=block&id=76042866-e916-4c06-a451-c66ceee86b5b&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=HHOK6-_9rHKcaxBoyTpV0gIYvYqq774lCW1HeSEvZI4&downloadName=Slide+16_9+-+6.png">
 <figcaption>   
   <br/>
   
@@ -552,77 +550,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
   
   <br/>
 
-# 4. 프로젝트 상세설명
 
-<br/>
-
-## ✅ 사용자는 현재 위치 또는 검색을 이용하여 정보(맛집, 관관지, 행사등)를 찾을 수 있어요
-
-<br/>
-
-| <img height="400" src="gif\현 위치 로컬.gif"/> | <img height="400" src="gif\검색.gif"/> |
-| :--------------------------------------------: | :------------------------------------: |
-
-<figcaption>
-  
-  ### ▶️ 현재 위치를 기반으로 주변 로컬정보들을 보여줍니다.
-  ### ▶️ 다양한 정보를 검색을 통해 간편하게 정보를 볼 수 있습니다.
-</figcaption>
-
-  <br/>
-
-## ✅ 각 지역만의 정보(맛집, 관관지, 행사등)를 한눈에 확인할 수 있어요
-
-<br/>
-
-<div align="center">
-  <img src="gif\지역별.gif"/>
-  <br/>
-</div>
-  <br/>
-
-<figcaption>
-  
-  ### ▶️ 한눈에 보이는 전국 키워드를 클릭하여 그 지역들의 정보를 한눈에 확인할 수 있습니다.
-</figcaption>
-
-  <br/>
-
-## ✅ 피드를 통해 관련 로컬들의 맛집, 관관지, 행사등의 후기를 한눈에 볼 수 있어요
-
-<br/>
-
-<div align="center">
-  <img src="gif\피드.gif"/>
-  <br/>
-</div>
-<br/>
-
-<figcaption>
-  
-### ▶️ 사용자들이 작성한 피드를 통해 후기와 경험, 추억들을 한눈에 볼 수 있습니다.
-  
-  <br/>
-</figcaption>
-
-  <br/>
-
-## ✅ 자신만의 피드를 작성하여 본인만의 이야기를 남길 수 있어요
-
-<img src="gif\피드작성.gif"/>
-<br/>
-
-<figcaption>
-  
-  ### ▶️ 사용자가 직접 글과 사진을 작성하여 정보를 공유 할 수 있습니다.
-  
-</figcaption>
-
-  <br/>
-
-  <br/>
-
-# 5. 트러블 슈팅
+# 4. 트러블 슈팅
 
   <br/>
  <details>
