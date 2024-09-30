@@ -452,6 +452,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
   
 ## 🧳 내 주변 여행지와 검색 기능
 <div>
+  
 ![](https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/aba20be0-5954-45fe-bd5e-faba83b6c4c2/Slide_16_9_-_1.png?table=block&id=85e55d3e-85e5-46e6-b7e0-733a3d6c32f8&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1727776800000&signature=lAXJUcgKQRWeSL7KRdY97VsOHchJzHqjzmu5HREILC0&downloadName=Slide+16_9+-+1.png)
 <figcaption>   
   <br/>
@@ -468,7 +469,9 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 지역 캐러셀과 지역 목록 페이지
 
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/67402518-08cb-43b0-9da9-2febe2434a5e/Slide_16_9_-_2.png?table=block&id=a631b223-b05a-4629-a386-4d0d716bc5a8&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=pzP-JckF4owmzef5TPFmW_ha7MJGF4U1hGJtvw9kwvY&downloadName=Slide+16_9+-+2.png">
+
+
+![Slide 16_9 - 2](https://github.com/user-attachments/assets/551f1dea-59c2-44b4-a199-02cd70b784c0)
 <figcaption>   
   <br/>
   
@@ -485,7 +488,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 장소 상세 페이지
 
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/cd107ae9-0166-4b20-9f1c-655737cad738/Slide_16_9_-_3.png?table=block&id=278468bb-b24a-4af7-84d7-1a657a2c8065&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=c_WrewyNTNbEFgOA1UV9Ykv-JWz_Cj13WI_YUBbsH88&downloadName=Slide+16_9+-+3.png">
+
+![Slide 16_9 - 3](https://github.com/user-attachments/assets/60fd5cea-e2c1-41bf-ac64-c55839c04865)
 <figcaption>   
   <br/>
   
@@ -502,7 +506,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 피드 상세 페이지
 
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/7a4b3536-71bb-469f-bc25-e5f2e799720b/Slide_16_9_-_4.png?table=block&id=7f37b182-bfa9-487b-ab29-bdc5b7e35bad&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=mYf1M00d5pkwa-7Ma5_OZu30YAG9VXYPpSfCpLtefbs&downloadName=Slide+16_9+-+4.png">
+
+![Slide 16_9 - 4](https://github.com/user-attachments/assets/fac0add4-0a95-4a6e-8c6f-8b4077d97256)
 <figcaption>   
   <br/>
   
@@ -518,7 +523,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 피드 목록과 작성 페이지
 
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/03729491-3c3c-4803-896f-38893d7d5743/Slide_16_9_-_5.png?table=block&id=456da7cb-f2b6-4259-8d3e-7d5a744449c2&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=mCcOQf19iMHhRVJacVg2Oa7SSmWlTaQxP6m_Fj-hB20&downloadName=Slide+16_9+-+5.png">
+  
+![Slide 16_9 - 5](https://github.com/user-attachments/assets/2afb9939-f59c-414f-8430-a35978ee86f8)
 <figcaption>   
   <br/>
   
@@ -535,7 +541,8 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
 ## 🧳 마이 페이지
 
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/ace73730-53e6-4741-81db-f57ec40d452c/Slide_16_9_-_6.png?table=block&id=76042866-e916-4c06-a451-c66ceee86b5b&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=HHOK6-_9rHKcaxBoyTpV0gIYvYqq774lCW1HeSEvZI4&downloadName=Slide+16_9+-+6.png">
+
+![Slide 16_9 - 6](https://github.com/user-attachments/assets/c628746d-30c7-4da0-bdf7-7c2c1518d89b)
 <figcaption>   
   <br/>
   
