@@ -452,7 +452,7 @@ Tailwind CSS 팀이 제공하는 아이콘 라이브러리로, 무료로 사용�
   
 ## 🧳 내 주변 여행지와 검색 기능
 <div>
-<img src="https://file.notion.so/f/f/6787eb78-98dd-4304-a1e5-ec106e0e6a3b/aba20be0-5954-45fe-bd5e-faba83b6c4c2/Slide_16_9_-_1.png?table=block&id=1fc1cfd7-a3a4-4525-a038-c29af4a8af13&spaceId=6787eb78-98dd-4304-a1e5-ec106e0e6a3b&expirationTimestamp=1727164800000&signature=i5DwtiSBi8AI3jciJ-gXQnYmMX-HsMpNYG3vmpiM-GM&downloadName=Slide+16_9+-+1.png">
+![](https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/aba20be0-5954-45fe-bd5e-faba83b6c4c2/Slide_16_9_-_1.png?table=block&id=85e55d3e-85e5-46e6-b7e0-733a3d6c32f8&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1727776800000&signature=lAXJUcgKQRWeSL7KRdY97VsOHchJzHqjzmu5HREILC0&downloadName=Slide+16_9+-+1.png)
 <figcaption>   
   <br/>
   
